@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v11/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+  }
+
+body{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.heading{
+    display: block;
+    
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Abel';
+    color: black;
+}
+
+.addText{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(192, 192, 192);
+}
+
+.textBox{
+    padding-left: 0px;
+    padding-top: 10px;
+    width: 50%;
+    margin-right: 10px;
+    border: none;
+    border-bottom: gray solid 2px;
+    font-family: 'Abel';
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.btnSave{
+    width: 100px;
+    height: 35px;
+    font-family: 'Abel';
+    font-size: x-large;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Abel';
+    font-size: x-large;
+}
+
+.btnDelete{
+    width: 100px;
+    height: 35px;
+    font-family: 'Abel';
+    font-size: x-large;
+    background-color: rgb(248, 79, 79);
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.btnDeleteAll{
+    width: 120px;
+    height: 35px;
+    font-family: 'Abel';
+    font-size: x-large;
+    background-color: rgb(240, 18, 18);
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.btnEdit{
+    width: 100px;
+    height: 35px;
+    font-family: 'Abel';
+    font-size: x-large;
+    background-color: rgb(253, 185, 76);
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.listrow{
+    margin-bottom: 10px;
+}
+
